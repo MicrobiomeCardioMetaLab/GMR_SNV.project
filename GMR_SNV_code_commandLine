@@ -5,6 +5,10 @@
 #4. Phylogenetic analysis
 
 ##############################################
+########## Before SNV calling ################
+All 306,525 bacteria genomes from 304 species were obtained from GMR datasets which could be download from https://ngdc.cncb.ac.cn/omix/release/OMIX006649
+
+##############################################
 ######## 1. Pangenome generation #############
 ##############################################
 
