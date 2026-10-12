@@ -1,7 +1,6 @@
 # Single-nucleotide variations of prevalent gut microbes are lineage-specific functional signatures and associations with host traits
 
 
-
 This repository contains the SNV calling, processed intermediate data, randomization analyses and association scripts associated with the study:
 
 Single-nucleotide variations of prevalent gut microbes are lineage-specific functional signatures and associations with host traits
@@ -80,37 +79,34 @@ Analyses were performed under:
 
 | Software | Version / notes |
 |---|---|
-| DIAMOND | 2.1.11.165 |
-| eggNOG-mapper | 2.1 |
-| eggNOG database | 5.0 |
-| PhyloPhlAn | 3.1.68 |
-| MCL | 22-282 |
-| fastp | 0.24 |
-| Bowtie2 | 2.5.4 |
-| Samtools | 1.21 |
-| Kraken2 | 2.1.3 |
+| Anpan |  |
+| DIAMOND | 2.0.11 |
+| eggNOG-mapper | 2.1.12 |
+| eggNOG database | 5.0.2 |
+| MUMmer | 4.0.0rc1 |
+| inStrain | 1.9.0 |
+| Bakta | 1.12.0 |
+| Bakta database | 6.0 |
+| Prodigal | 2.6.3 |
+| Bowtie2 | 2.2.5 |
+| Samtools | 1.15.1 |
+| Kraken2 | 2.0.8 |
 | Bracken | 3.0.1 |
-| Cytoscape | 3.10.3 |
+| IQtree | 3.0.1 |
 | iTOL | 7.3 |
-| GNU Parallel | 20250222 |
-| seqkit | 2.10.0 |
+| seqkit | 0.10.0 |
+| SNP-site | 2.5.1 |
+| VCFtools | 0.1.17 |
 
 ### Major R packages
 
 | Package | Version |
 |---|---|
-| clusterSim | 0.51-5 |
 | vegan | 2.7 |
 | ape | 5.8 |
-| metafor | 3.8-0 |
-| randomForest | 4.7 |
-| pROC | 1.19 |
-| rstatix | 0.7.2 |
-| DESeq2 | 1.46 |
 | clusterProfiler | 4.17 |
 | ggplot2 | 3.5.2 |
-| ggtern | 3.5 |
-| ggpubr | 0.6.1 |
+
 
 ### Major Python packages
 
@@ -128,6 +124,7 @@ This project relies on external reference resources that are not fully redistrib
 - GMR genome catalogue and metadata;
 - GMR Kraken2 database;
 - eggNOG v5.0;
+- Bakta v6.0;
 - public sequencing datasets listed above.
 
 ---
