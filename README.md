@@ -1,4 +1,5 @@
-# Single-nucleotide variations of prevalent gut microbes are lineage-specific functional signatures and associations with host traits
+# Single-nucleotide variations in prevalent gut microbes are lineage-specific and associated with functional divergence relevant to host physiology
+
 
 
 This repository contains the SNV calling, processed intermediate data, randomization analyses and association scripts associated with the study:
